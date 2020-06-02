@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-################¿¿¿¿¿¿¿¿¿¿git##################
+################æµ‹è¯•gitï¼Œéšä¾¿æ·»åŠ äº†ç‚¹æ³¨é‡Š##################
 use strict;
 use warnings;
 use Getopt::Long;
@@ -87,7 +87,7 @@ sub ABSOLUTE_DIR{ #$pavfile=&ABSOLUTE_DIR($pavfile);
 
 
 sub revcom(){#&revcom($ref_seq);
-	#»ñÈ¡×Ö·û´®ÐòÁÐµÄ·´Ïò»¥²¹ÐòÁÐ£¬ÒÔ×Ö·û´®ÐÎÊ½·µ»Ø¡£ATTCCC->GGGAAT
+	#èŽ·å–å­—ç¬¦ä¸²åºåˆ—çš„åå‘äº’è¡¥åºåˆ—ï¼Œä»¥å­—ç¬¦ä¸²å½¢å¼è¿”å›žã€‚ATTCCC->GGGAAT
 	my $seq=shift;
 	$seq=~tr/ATCGatcg/TAGCtagc/;
 	$seq=reverse $seq;
